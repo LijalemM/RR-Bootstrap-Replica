@@ -1,9 +1,16 @@
+import React from 'react';
 import './App.css';
+//import { Form } from 'react-bootstrap';
+import TopBar from './components/TopBar';
+import Header from './components/Background';
+import StoreList from './components/StoreList';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <TopBar/>
+      <Header/>
+      <StoreList/>
     </div>
   );
 }
